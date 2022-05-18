@@ -1,0 +1,23 @@
+{
+  "name": "mediumlogoextension",
+  "version": "1.0.0",
+  "description": "",
+  "main": "background.js",
+  "scripts": {
+    "test": "cypress open "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikolas-dog/chrome-extension-medium-logo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikolas-dog/chrome-extension-medium-logo/issues"
+  },
+  "homepage": "https://github.com/nikolas-dog/chrome-extension-medium-logo#readme",
+  "dependencies": {
+    "cypress": "^9.6.1"
+  }
+}

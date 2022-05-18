@@ -23,7 +23,8 @@
     {
       "matches": ["https://*/*"],
       "css": ["./style.css"],
-      "js": ["./foreground.js"]
+      "js": ["./foreground.js"],
+      "all_frames": true
     }
   ],
   "options_page": "options.html",
@@ -32,5 +33,6 @@
       "resources": ["*"],
       "matches": ["<all_urls>"]
     }
-  ]
+  ],
+  "permissions": ["tabs", "storage"]
 }
