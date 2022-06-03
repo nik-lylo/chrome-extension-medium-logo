@@ -1,0 +1,10 @@
+.old-image {
+  width: 55px;
+  height: 40px;
+  object-fit: contain;
+}
+.medium-bg-white {
+  background-color: white;
+  position: relative;
+  z-index: 333;
+}

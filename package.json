@@ -4,7 +4,23 @@
   "description": "",
   "main": "background.js",
   "scripts": {
-    "test": "cypress open "
+    "test": "cypress open ",
+    "start": "webpack --watch --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.188",
+    "@types/react": "^18.0.9",
+    "@types/react-dom": "^18.0.5",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "typescript": "^4.6.4",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-merge": "^5.8.0"
   },
   "repository": {
     "type": "git",
@@ -18,6 +34,11 @@
   },
   "homepage": "https://github.com/nikolas-dog/chrome-extension-medium-logo#readme",
   "dependencies": {
-    "cypress": "^9.6.1"
+    "cypress": "^9.6.1",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.1.3",
+    "ts-loader": "^9.3.0"
   }
 }
